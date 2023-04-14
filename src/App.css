@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,18 +7,18 @@
   text-decoration: none !important;
   box-sizing: border-box !important;
 }
-
+.ff_inter{font-family: 'Inter', sans-serif;}
 :root {
   --fw-med: 500;
   /* font size */
   --fs-xsm: 14px;
-  --fs-sm: 16px;
+  --fs-sm: 14px;
   --fs-md: 18px;
-  --fs-lg: 20px;
+  --fs-lg: 15px;
   --fs-2xl: 24px;
-  --fs-3xl: 32px;
-  --fs-4xl: 44px;
-  --fs-7xl: 72px;
+  --fs-3xl: 18px;
+  --fs-4xl: 24px;
+  --fs-7xl: 34px;
   /* clr */
   --text-white: #ffff;
   --text-dim-Grey: #b6b8bc;
@@ -28,7 +30,7 @@
   --bg-primery: #0c111f;
   --bg-dim-blue: #252a36;
   --bg-light-white: #f8f8f8;
-  --bg-blue: #1812da;
+  --bg-blue: #181d2a;
   --bg-off-blue: #3d414c;
 }
 /* Root defines */
@@ -136,9 +138,18 @@
   z-index: 12;
 }
 /* Transetion */
-tr {
+.transition300{
   transition: all 300ms ease-in-out;
 }
+.transition400{
+  transition: all 400ms ease-in-out;
+}
+.transition500{
+  transition: all 500ms ease-in-out;
+}
+/*  */
+.rounded-50 {border-radius: 50px;}
+.rounded-100 {border-radius: 100px;}
 /* Nav */
 .cursor_pointer {
   cursor: pointer;
@@ -202,4 +213,47 @@ tr {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media (min-width:576px) {:root{  --fs-xsm: 14px;
+  --fs-sm: 12px;
+  --fs-md: 18px;
+  --fs-lg: 16px;
+  --fs-2xl: 24px;
+  --fs-3xl: 24px;
+  --fs-4xl: 28px;
+  --fs-7xl: 38px;}
+  
+}
+@media (min-width:768px) {:root{  --fs-xsm: 14px;
+  --fs-sm: 16px;
+  --fs-md: 18px;
+  --fs-lg: 18px;
+  --fs-2xl: 24px;
+  --fs-3xl: 28px;
+  --fs-4xl: 44px;
+  --fs-7xl: 48px;}
+  
+}
+@media (min-width:992px) {:root{  --fs-xsm: 14px;
+  --fs-sm: 16px;
+  --fs-md: 18px;
+  --fs-lg: 20px;
+  --fs-2xl: 24px;
+  --fs-3xl: 32px;
+  --fs-4xl: 34px;
+  --fs-7xl: 68px;}
+  
+}
+@media (min-width:1024px) {
+  :root{  --fs-xsm: 14px;
+  --fs-sm: 16px;
+  --fs-md: 18px;
+  --fs-lg: 20px;
+  --fs-2xl: 24px;
+  --fs-3xl: 32px;
+  --fs-4xl: 44px;
+  --fs-7xl: 68px;}
+}
+@media (min-width:1200px) {
+  
 }
