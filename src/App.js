@@ -8,11 +8,12 @@ import OurProjects from "./components/OurProject";
 import GridComponents from "./components/GridComponents";
 
 import Footer from "./components/Footer";
+import BackToTop from "./components/BackTop";
 
 function App() {
   return (
     <>
-      {/* <NavBar /> */}
+      <BackToTop />
       <Hero />
       <Services />
       <About />

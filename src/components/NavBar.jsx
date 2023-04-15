@@ -71,15 +71,15 @@ function NavBar() {
             <ul
               className={
                 navShow
-                  ? "z_index129  border border-white py-2 border-2 px-1 pb-2 px-2 rounded-3 mb-0 d-xl-none"
-                  : " border border-white border-2 px-1 pb-1 rounded-3 z_index129 mb-0 d-xl-none "
+                  ? "z_index129  border border-white py-2 border-2 px-1 pb-2 px-2 rounded-3 mb-0 d-lg-none"
+                  : " border border-white border-2 px-1 pb-1 rounded-3 z_index129 mb-0 d-lg-none "
               }
             >
               <div
                 className={
                   navShow
-                    ? "threeline d-xl-none cursor_pointer"
-                    : "threeline d-xl-none cursor_pointer my-2 mb-1"
+                    ? "threeline d-lg-none cursor_pointer"
+                    : "threeline d-lg-none cursor_pointer my-2 mb-1"
                 }
                 onClick={() => setNavShow(!navShow)}
               >

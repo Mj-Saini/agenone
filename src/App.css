@@ -257,6 +257,9 @@ div.gap-3 span a:hover {
   color: #38c682;
   transition: all 0.3s ease-in-out;
 }
+::-webkit-scrollbar {
+  display: none;
+}
 /* hero_sec */
 .bg_hero_img {
   background-image: url(./assets/img/png/Hero-bg.png);
@@ -276,6 +279,10 @@ div.gap-3 span a:hover {
 .expend_img_size {
   width: 70px;
   height: 70px;
+}
+.col-3:hover .expend_img_size {
+  transform: rotate(30deg);
+  cursor: pointer;
 }
 .banner_img {
   height: 280px;
@@ -300,6 +307,10 @@ div.gap-3 span a:hover {
   background: linear-gradient(279.69deg, #00796d 0%, #38c682 100%);
   border-radius: 20px;
 }
+.top_img {
+  width: 40px;
+  height: 35px;
+}
 /* carosole */
 .carousel-control-next,
 .carousel-control-prev {
@@ -322,6 +333,7 @@ div.gap-3 span a:hover {
   border-radius: 50% !important;
   background-color: #ffffff !important;
   background-clip: inherit !important;
+  -webkit-background-clip: inherit !important;
   border: 0 !important;
 }
 /* faq-accodean*/
@@ -388,6 +400,15 @@ div.gap-3 span a:hover {
   --bs-accordion-active-color: #00796d !important;
 }
 
+.accordion:active h2 {
+  background: linear-gradient(279.69deg, #00796d 0%, #38c682 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+#About .count:hover {
+  box-shadow: 0 0px 50px 1px #0c9050;
+}
 /* break-points */
 @media (max-width: 576px) {
   .lh_02 {
@@ -466,10 +487,10 @@ div.gap-3 span a:hover {
     --fs-sm: 16px;
     --fs-md: 18px;
     --fs-lg: 20px;
-    --fs-2xl: 24px;
+    --fs-2xl: 18px;
     --fs-3xl: 32px;
     --fs-4xl: 44px;
-    --fs-7xl: 68px;
+    --fs-7xl: 74px;
   }
   .expend_img_size {
     width: 100px !important;
@@ -489,6 +510,9 @@ div.gap-3 span a:hover {
   }
   .lh_02 {
     line-height: 76px;
+  }
+  .min_vh_100 {
+    min-height: 100vh;
   }
 }
 @media (min-width: 1400px) {

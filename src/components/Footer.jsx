@@ -55,7 +55,7 @@ function Footer() {
             </span>
           </div>
         </div>
-        <div className="d-flex flex-column flex-grow-1 justify-content-center z_index3 mt-lg-5 pt-2  mb-3">
+        <div className="d-flex flex-column flex-grow-1 justify-content-center z_index3 mt-lg-5 pt-2">
           <div className=" container">
             <div className="row justify-content-between py-5 ">
               <div className="col-lg-4">
@@ -222,7 +222,7 @@ function Footer() {
               </div>
             </div>
             <div className="border_bottom mx-4"></div>
-            <p className="ff_inter fw-normal fs_md text_clr_dimGrey text-center py-4">
+            <p className="ff_inter fw-normal fs_md text_clr_dimGrey text-center py-4 mb-0">
               Copyright © 2023 by Agenone. All rights reserved.
             </p>
           </div>
