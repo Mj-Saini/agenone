@@ -8,10 +8,12 @@ import OurProjects from "./components/OurProject";
 import GridComponents from "./components/GridComponents";
 
 import Footer from "./components/Footer";
+import Loader from "./components/Loader";
 
 function App() {
   return (
     <>
+      <Loader/>
       {/* <NavBar /> */}
       <Hero />
       <Services />
