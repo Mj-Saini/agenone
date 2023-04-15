@@ -36,7 +36,13 @@ function OurProjects() {
           alt="Error to Fatch Api"
         />
         <div className=" container position-relative z_index2">
-          <div className="py-md-5 ">
+          <div
+            data-aos="fade-right"
+            data-aos-easing="ease-in"
+            data-aos-delay="300"
+            data-aos-duration="2000"
+            className="py-md-5 "
+          >
             {" "}
             <h2 className=" text-center ff_intes fs_7xl fw-bold text_clr_white">
               Our Project Have Been <span className="text_Grident">Done</span>{" "}
@@ -70,7 +76,13 @@ function OurProjects() {
             </div>
             <div className=" pt-4 mt-5 pb-5">
               <div className="row gap-lg-0 gap-sm-4 gap-2">
-                <div className="col-lg-6 ">
+                <div
+                  data-aos="fade-right"
+                  data-aos-easing="ease-in"
+                  data-aos-delay="300"
+                  data-aos-duration="2000"
+                  className="col-lg-6 "
+                >
                   <div className=" bg_blue rounded-4 p-3 overlayParant">
                     <div className=" position-relative">
                       <div className=" position-absolute  w-100 h-100 overlay transition300">
@@ -103,7 +115,13 @@ function OurProjects() {
                     </p>
                   </div>
                 </div>
-                <div className="col-lg-6 ">
+                <div
+                  data-aos="fade-left"
+                  data-aos-easing="ease-in"
+                  data-aos-delay="300"
+                  data-aos-duration="2000"
+                  className="col-lg-6 "
+                >
                   <div className=" bg_blue rounded-4 p-3 overlayParant">
                     <div className=" position-relative">
                       <div className=" position-absolute  w-100 h-100 overlay transition300">
@@ -141,7 +159,14 @@ function OurProjects() {
           </div>
         </div>
       </section>
-      <section className=" bg_primery " id="LogoParant">
+      <section
+        data-aos="fade-down"
+        data-aos-easing="ease-in"
+        data-aos-delay="300"
+        data-aos-duration="2000"
+        className=" bg_primery "
+        id="LogoParant"
+      >
         <div className=" container ">
           <div class="LogoParant ">
             <div class="slide_logo d-flex gap-5 px-3 align-items-center">

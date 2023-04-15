@@ -17,7 +17,7 @@ import Experiment from "./components/Experiment";
 
 function App() {
   useEffect(() => {
-    AOS.init();
+    AOS.init({ once: true });
   }, []);
   return (
     <>

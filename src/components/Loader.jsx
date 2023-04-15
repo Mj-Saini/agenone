@@ -6,7 +6,7 @@ function Loader() {
     setloader(true);
     setTimeout(() => {
       setloader(false);
-    }, 3000);
+    }, 2000);
   }, []);
   {
     if (loder === 0) {
@@ -17,7 +17,7 @@ function Loader() {
       document.documentElement.scrollTop = 0;
     }
   }
-  return ( 
+  return (
     <>
       {loder ? (
         <section className=" position-fixed w-100 min-vh-100 Loader d-flex flex-column justify-content-center align-items-center position-relative ">

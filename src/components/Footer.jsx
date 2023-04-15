@@ -27,7 +27,13 @@ function Footer() {
           alt=""
         />
 
-        <div className=" container position-relative z_index3">
+        <div
+          data-aos="zoom-in"
+          data-aos-easing="ease-in"
+          data-aos-delay="300"
+          data-aos-duration="2000"
+          className=" container position-relative z_index3"
+        >
           <div className="d-flex flex-column flex-lg-row justify-content-between px-sm-4 px-3 gap-3 gap-lg-0 px-lg-5 mx-4 align-items-center border_bottom py-xxl-5 py-4">
             <h2
               className="text_clr_white ff_inter fw-normal fs_4xl text-center text-lg-start"
@@ -55,7 +61,13 @@ function Footer() {
             </span>
           </div>
         </div>
-        <div className="d-flex flex-column flex-grow-1 justify-content-center z_index3 mt-lg-5 pt-2">
+        <div
+          data-aos="fade-down"
+          data-aos-easing="ease-in"
+          data-aos-delay="300"
+          data-aos-duration="2000"
+          className="d-flex flex-column flex-grow-1 justify-content-center z_index3 mt-lg-5 pt-2"
+        >
           <div className=" container">
             <div className="row justify-content-between py-5 ">
               <div className="col-lg-4">
