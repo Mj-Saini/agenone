@@ -40,7 +40,7 @@
 }
 #LogoParant .LogoParant .slide_logo {
   align-items: center;
-  animation: slide_logo 10s 3s linear infinite;
+  animation: slide_log0 10s 3s linear infinite;
   display: flex;
   flex-shrink: 0;
   justify-content: space-around;
@@ -52,6 +52,31 @@
   }
   100% {
     transform: translateX(-100%);
+  }
+}
+#GridComponents .LogoParant {
+
+  max-width: 100vw;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#GridComponents .LogoParant .slide_logo {
+  align-items: center;
+  animation: slideGrid 10s 0s linear infinite;
+  display: flex;
+
+  justify-content: space-around;
+  min-width: 100%;
+}
+@keyframes slideGrid {
+  0% {
+    transform: translatey(0);
+  }
+  100% {
+    transform: translatey(-100%);
   }
 }
 
