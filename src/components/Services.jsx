@@ -15,9 +15,11 @@ function Services() {
             <Accordion.Item
               eventKey="0"
               className=" mb-4 p-md-5 p-4 bg_lightWhite"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
+              data-aos="fade-left"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-easing="ease-in"
+              data-aos-delay="300"
+              data-aos-duration="1000">
               <Accordion.Header className="p-0">
                 <h2 className="ff_inter fw-semibold fs_3xl text_clr_darkGrey mb-0 pt-2 w-100">
                   <span className="pe-md-5 pe-sm-4 pe-2">01</span> UI/UX Design
@@ -44,9 +46,11 @@ function Services() {
             <Accordion.Item
               eventKey="1"
               className=" mb-4 p-md-5 p-4 bg_lightWhite"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
+              data-aos="fade-right"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-easing="ease-in"
+              data-aos-delay="300"
+              data-aos-duration="1000">
               <Accordion.Header className="p-0">
                 <h2 className="ff_inter fw-semibold fs_3xl text_clr_darkGrey mb-0 pt-2 w-100">
                   <span className="pe-md-5 pe-sm-4 pe-2">02</span> Digital
@@ -74,9 +78,11 @@ function Services() {
             <Accordion.Item
               eventKey="2"
               className=" mb-4 p-md-5 p-4 bg_lightWhite"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
+              data-aos="fade-left"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-easing="ease-in"
+              data-aos-delay="300"
+              data-aos-duration="1000">
               <Accordion.Header className="p-0">
                 <h2 className="ff_inter fw-semibold fs_3xl text_clr_darkGrey mb-0 pt-2 w-100 d-flex">
                   <span className="pe-md-5 pe-sm-4 pe-2">03</span>
@@ -104,9 +110,11 @@ function Services() {
             <Accordion.Item
               eventKey="3"
               className=" mb-4 p-md-5 p-4 bg_lightWhite"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
+              data-aos-anchor-placement="center-bottom"
+              data-aos="fade-in-right"
+              data-aos-easing="ease-in"
+              data-aos-delay="300"
+              data-aos-duration="2000">
               <Accordion.Header className="p-0">
                 <h2 className="ff_inter fw-semibold fs_3xl text_clr_darkGrey mb-0 pt-2 w-100">
                   <span className="pe-md-5 pe-sm-4 pe-2">04</span> Development

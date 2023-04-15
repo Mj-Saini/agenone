@@ -12,7 +12,12 @@ function NavBar() {
   return (
     <>
       <section id="Nav">
-        <Container>
+        <Container
+          data-aos="fade-down"
+          data-aos-easing="ease-in"
+          data-aos-delay="300"
+          data-aos-duration="2000"
+        >
           <div className="d-flex justify-content-between align-items-center w-100 ">
             <a className="ff_inter fw-bold fs_2xl text-white z_index1" href="#">
               <img src={logo} alt="logo-img" />
