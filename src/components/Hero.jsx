@@ -14,7 +14,7 @@ import banner from "../assets/img/png/Banner.png";
 function Hero() {
   return (
     <>
-      <section className="bg_hero_img min-vh-100 d-flex flex-column pt-4 pb-lg-5 pb-4">
+      <section className="bg_hero_img min-vh-100 d-flex flex-column pt-3 pb-lg-5 pb-4">
         <NavBar />
         <Container className="d-flex flex-grow-1 align-items-center justify-content-center mt-lg-5 mt-4 pb-lg-5">
           <div className="d-flex flex-column align-items-center pt-lg-5 pt-4">
@@ -25,7 +25,7 @@ function Hero() {
             </div>
             <h1
               className=" text-center ff_inter fw-bold
-             fs_7xl text-white mx-auto lh_02 pt-1"
+             fs_7xl text-white mx-auto lh_02 pt-2"
             >
               <span className="text_grideant d-lg-block">Smart Choices</span>{" "}
               For Your Business Growth{" "}
@@ -42,7 +42,7 @@ function Hero() {
               <a className="ff_inter fw_med fs_md text-white" href="#">
                 Contact Us{" "}
                 <svg
-                  className="changer"
+                  className="changer ms-2"
                   width="17"
                   height="17"
                   viewBox="0 0 17 17"
@@ -64,7 +64,7 @@ function Hero() {
                 <div className="row mt-xxl-4 justify-content-evenly px-4">
                   <div className="col-3 pt-4">
                     <div className="d-flex justify-content-center flex-column align-items-center">
-                      <img className="expend_img_size" src={expand} alt="img" />
+                      <img className="expend_img_size transition300" src={expand} alt="img" />
                       <p className="ff_inter fw_med fs_2xl text-center text-white pt-2">
                         Expanding the Market
                       </p>
@@ -72,7 +72,7 @@ function Hero() {
                   </div>
                   <div className="col-3 pt-4">
                     <div className="d-flex justify-content-center flex-column align-items-center">
-                      <img className="expend_img_size" src={money} alt="img" />
+                      <img className="expend_img_size transition300" src={money} alt="img" />
                       <p className="ff_inter fw_med fs_2xl text-center text-white pt-2">
                         Cost-Effective
                       </p>
@@ -80,7 +80,7 @@ function Hero() {
                   </div>
                   <div className="col-3 pt-4">
                     <div className="d-flex justify-content-center flex-column align-items-center">
-                      <img className="expend_img_size" src={star} alt="img" />
+                      <img className="expend_img_size transition300" src={star} alt="img" />
                       <p className="ff_inter fw_med fs_2xl text-center text-white pt-2">
                         More Professional
                       </p>
@@ -88,7 +88,7 @@ function Hero() {
                   </div>
                   <div className="col-3 pt-4">
                     <div className="d-flex justify-content-center flex-column align-items-center">
-                      <img className="expend_img_size" src={people} alt="img" />
+                      <img className="expend_img_size transition300" src={people} alt="img" />
                       <p className="ff_inter fw_med fs_2xl text-center text-white pt-2">
                         Attract Client
                       </p>
@@ -113,7 +113,7 @@ function Hero() {
                       <div className="col-md-3 pt-4">
                         <div className="d-flex justify-content-center flex-column align-items-center">
                           <img
-                            className="expend_img_size"
+                            className="expend_img_size transition300"
                             src={expand}
                             alt="img"
                           />
@@ -145,7 +145,7 @@ function Hero() {
                       <div className="col-md-3 pt-4">
                         <div className="d-flex justify-content-center flex-column align-items-center">
                           <img
-                            className="expend_img_size"
+                            className="expend_img_size transition300"
                             src={expand}
                             alt="img"
                           />
@@ -177,7 +177,7 @@ function Hero() {
                       <div className="col-md-3 pt-4">
                         <div className="d-flex justify-content-center flex-column align-items-center">
                           <img
-                            className="expend_img_size"
+                            className="expend_img_size transition300"
                             src={expand}
                             alt="img"
                           />
@@ -209,7 +209,7 @@ function Hero() {
                       <div className="col-md-3 pt-4">
                         <div className="d-flex justify-content-center flex-column align-items-center">
                           <img
-                            className="expend_img_size"
+                            className="expend_img_size transition300"
                             src={expand}
                             alt="img"
                           />

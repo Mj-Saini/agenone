@@ -277,6 +277,9 @@ div.gap-3 span a:hover {
   width: 70px;
   height: 70px;
 }
+.col-3:hover .expend_img_size {
+transform: rotate(30deg);cursor: pointer;
+}
 .banner_img {
   height: 280px;
   width: 100%;
@@ -322,6 +325,7 @@ div.gap-3 span a:hover {
   border-radius: 50% !important;
   background-color: #ffffff !important;
   background-clip: inherit !important;
+  -webkit-background-clip: inherit !important;
   border: 0 !important;
 }
 /* faq-accodean*/
@@ -390,7 +394,7 @@ div.gap-3 span a:hover {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-
+#About .count:hover{box-shadow: 0 0px 50px 1px #0c9050;}
 /* break-points */
 @media (max-width: 576px) {
   .lh_02 {

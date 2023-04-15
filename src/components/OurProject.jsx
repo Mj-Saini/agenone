@@ -50,19 +50,19 @@ function OurProjects() {
             </p>
             <div className="d-flex justify-content-center mt-5 gap-sm-2 pt-3">
               <div className=" text_clr_offBlue fw-med fs_sm ff_inter  bg-white d-inline-block p-1 p-sm-2 rounded-100 ">
-                <span className="btn_our_info d-inline-block ">
+                <span className="btn_our_info cursor_pointer d-inline-block ">
                   UI/UX <span className="d-none d-sm-inline-block">Design</span>
                 </span>
-                <span className="btn_our_info d-inline-block">
+                <span className="btn_our_info cursor_pointer d-inline-block">
                   <span className="d-none d-d-sm-inline-block"> Digital</span>{" "}
                   Marketing
                 </span>
-                <span className="btn_our_info d-inline-block">
+                <span className="btn_our_info cursor_pointer d-inline-block">
                   <span className="d-none d-lg-inline-block"> Sosmed</span>{" "}
                   <span className="d-none d-sm-inline-block">Management</span>{" "}
                   <span className=" d-sm-none">SMM</span>
                 </span>
-                <span className="btn_our_info d-inline-block">
+                <span className="btn_our_info cursor_pointer d-inline-block">
                   Dev<span className="d-none d-md-inline-block">elopment</span>
                 </span>
               </div>
@@ -80,7 +80,7 @@ function OurProjects() {
                         />
                         <div className=" position-absolute CircleBgArrow d-inline-block">
                           <img
-                            className="transition300"
+                            className="transition300 cursor_pointer"
                             style={{ width: "218px" }}
                             src={Circle_Arrow}
                             alt=""
@@ -113,7 +113,7 @@ function OurProjects() {
                         />
                         <div className=" position-absolute CircleBgArrow d-inline-block">
                           <img
-                            className="transition300"
+                            className="transition300 cursor_pointer"
                             style={{ width: "218px" }}
                             src={Circle_Arrow}
                             alt=""

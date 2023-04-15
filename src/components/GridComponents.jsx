@@ -1,5 +1,8 @@
 import React from "react";
 import Avtar1 from "../assets/img/png/Avtar1.png"
+import Avtar2 from "../assets/img/png/Avatar2.png"
+import Avtar3 from "../assets/img/png/Avatar2.png"
+import Avtar4 from "../assets/img/png/Avtar4.png"
 
 function GridComponents() {
     return (
@@ -32,7 +35,7 @@ function GridComponents() {
                   sit amet, consectetur adipiscing elit. aliquam.
                 </p>
                 <div className="d-flex align-items-center gap-3 pt-4">
-                  <img style={{width:"72px"}} src={Avtar1} alt="" />
+                  <img style={{width:"72px"}} src={Avtar2} alt="" />
                   <div>
                     <h2 className=" text_clr_offBlue ff_inter fs_lg fw-semibold">
                       Clara Insomnia
@@ -50,7 +53,7 @@ function GridComponents() {
                   sit amet, consectetur adipiscing elit. aliquam.
                 </p>
                 <div className="d-flex align-items-center gap-3 pt-4">
-                  <img style={{width:"72px"}} src={Avtar1} alt="" />
+                  <img style={{width:"72px"}} src={Avtar3} alt="" />
                   <div>
                     <h2 className=" text_clr_offBlue ff_inter fs_lg fw-semibold">
                       Clara Insomnia
@@ -68,7 +71,7 @@ function GridComponents() {
                   sit amet, consectetur adipiscing elit. aliquam.
                 </p>
                 <div className="d-flex align-items-center gap-3 pt-4">
-                  <img style={{width:"72px"}} src={Avtar1} alt="" />
+                  <img style={{width:"72px"}} src={Avtar4} alt="" />
                   <div>
                     <h2 className=" text_clr_offBlue ff_inter fs_lg fw-semibold">
                       Clara Insomnia
@@ -86,7 +89,7 @@ function GridComponents() {
                   sit amet, consectetur adipiscing elit. aliquam.
                 </p>
                 <div className="d-flex align-items-center gap-3 pt-4">
-                  <img style={{width:"72px"}} src={Avtar1} alt="" />
+                  <img style={{width:"72px"}} src={Avtar4} alt="" />
                   <div>
                     <h2 className=" text_clr_offBlue ff_inter fs_lg fw-semibold">
                       Clara Insomnia
@@ -104,7 +107,7 @@ function GridComponents() {
                   sit amet, consectetur adipiscing elit. aliquam.
                 </p>
                 <div className="d-flex align-items-center gap-3 pt-4">
-                  <img style={{width:"72px"}} src={Avtar1} alt="" />
+                  <img style={{width:"72px"}} src={Avtar2} alt="" />
                   <div>
                     <h2 className=" text_clr_offBlue ff_inter fs_lg fw-semibold">
                       Clara Insomnia
