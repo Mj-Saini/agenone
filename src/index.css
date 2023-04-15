@@ -40,7 +40,7 @@
 }
 #LogoParant .LogoParant .slide_logo {
   align-items: center;
-  animation: slide_log0 10s 3s linear infinite;
+  animation: slide_logo 10s 3s linear infinite;
   display: flex;
   flex-shrink: 0;
   justify-content: space-around;
