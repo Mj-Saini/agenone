@@ -53,47 +53,118 @@
   }
 }
 
-#GridComponents .d-grid{display: grid; grid-template-columns: 1fr;column-gap: 48px; row-gap: 40px;}
-.gridbox1{grid-row: 1/2;grid-column: 1/2;}
-.gridbox2{grid-row: 2/3;grid-column: 1/2;}
-.gridbox3{grid-row: 3/4;grid-column: 1/2;}
-.gridbox4{grid-row: 4/5;grid-column: 1/2;}
-.gridbox5{grid-row: 5/6;grid-column: 1/2;}
-.gridbox6{grid-row: 6/7;grid-column: 1/2;}
-#GridComponents .gridbox1:hover{background: linear-gradient(279.69deg, #00796D 0%, #38C682 100%);}
-#GridComponents .gridbox1:hover h2 {color: aliceblue;}
-#GridComponents .gridbox1:hover p {color: aliceblue;}
-#GridComponents .gridbox1:hover h4 {color: aliceblue;}
-#GridComponents .gridbox2:hover{background: linear-gradient(279.69deg, #00796D 0%, #38C682 100%);}
-#GridComponents .gridbox2:hover h2 {color: aliceblue;}
-#GridComponents .gridbox2:hover p {color: aliceblue;}
-#GridComponents .gridbox2:hover h4 {color: aliceblue;}
-#GridComponents .gridbox3:hover{background: linear-gradient(279.69deg, #00796D 0%, #38C682 100%);}
-#GridComponents .gridbox3:hover h2 {color: aliceblue;}
-#GridComponents .gridbox3:hover p {color: aliceblue;}
-#GridComponents .gridbox3:hover h4 {color: aliceblue;}
-#GridComponents .gridbox4:hover{background: linear-gradient(279.69deg, #00796D 0%, #38C682 100%);}
-#GridComponents .gridbox4:hover h2 {color: aliceblue;}
-#GridComponents .gridbox4:hover p {color: aliceblue;}
-#GridComponents .gridbox4:hover h4 {color: aliceblue;}
-#GridComponents .gridbox5:hover{background: linear-gradient(279.69deg, #00796D 0%, #38C682 100%);}
-#GridComponents .gridbox5:hover h2 {color: aliceblue;}
-#GridComponents .gridbox5:hover p {color: aliceblue;}
-#GridComponents .gridbox5:hover h4 {color: aliceblue;}
-#GridComponents .gridbox6:hover{background: linear-gradient(279.69deg, #00796D 0%, #38C682 100%);}
-#GridComponents .gridbox6:hover h2 {color: aliceblue;}
-#GridComponents .gridbox6:hover p {color: aliceblue;}
-#GridComponents .gridbox6:hover h4 {color: aliceblue;}
+#GridComponents .d-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 48px;
+  row-gap: 40px;
+}
+.gridbox1 {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+.gridbox2 {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+.gridbox3 {
+  grid-row: 3/4;
+  grid-column: 1/2;
+}
+.gridbox4 {
+  grid-row: 4/5;
+  grid-column: 1/2;
+}
+.gridbox5 {
+  grid-row: 5/6;
+  grid-column: 1/2;
+}
+.gridbox6 {
+  grid-row: 6/7;
+  grid-column: 1/2;
+}
+#GridComponents .gridbox1:hover {
+  background: linear-gradient(279.69deg, #00796d 0%, #38c682 100%);
+}
+#GridComponents .gridbox1:hover h2 {
+  color: aliceblue;
+}
+#GridComponents .gridbox1:hover p {
+  color: aliceblue;
+}
+#GridComponents .gridbox1:hover h4 {
+  color: aliceblue;
+}
+#GridComponents .gridbox2:hover {
+  background: linear-gradient(279.69deg, #00796d 0%, #38c682 100%);
+}
+#GridComponents .gridbox2:hover h2 {
+  color: aliceblue;
+}
+#GridComponents .gridbox2:hover p {
+  color: aliceblue;
+}
+#GridComponents .gridbox2:hover h4 {
+  color: aliceblue;
+}
+#GridComponents .gridbox3:hover {
+  background: linear-gradient(279.69deg, #00796d 0%, #38c682 100%);
+}
+#GridComponents .gridbox3:hover h2 {
+  color: aliceblue;
+}
+#GridComponents .gridbox3:hover p {
+  color: aliceblue;
+}
+#GridComponents .gridbox3:hover h4 {
+  color: aliceblue;
+}
+#GridComponents .gridbox4:hover {
+  background: linear-gradient(279.69deg, #00796d 0%, #38c682 100%);
+}
+#GridComponents .gridbox4:hover h2 {
+  color: aliceblue;
+}
+#GridComponents .gridbox4:hover p {
+  color: aliceblue;
+}
+#GridComponents .gridbox4:hover h4 {
+  color: aliceblue;
+}
+#GridComponents .gridbox5:hover {
+  background: linear-gradient(279.69deg, #00796d 0%, #38c682 100%);
+}
+#GridComponents .gridbox5:hover h2 {
+  color: aliceblue;
+}
+#GridComponents .gridbox5:hover p {
+  color: aliceblue;
+}
+#GridComponents .gridbox5:hover h4 {
+  color: aliceblue;
+}
+#GridComponents .gridbox6:hover {
+  background: linear-gradient(279.69deg, #00796d 0%, #38c682 100%);
+}
+#GridComponents .gridbox6:hover h2 {
+  color: aliceblue;
+}
+#GridComponents .gridbox6:hover p {
+  color: aliceblue;
+}
+#GridComponents .gridbox6:hover h4 {
+  color: aliceblue;
+}
 #LogoParant {
   border-top: 0.8px solid #3d414c;
 }
-#Footer .footerBtn{
-padding: 16px 24px;
-background: linear-gradient(279.69deg, #00796D 0%, #38C682 100%);
-border-radius: 100px;
+#Footer .footerBtn {
+  padding: 16px 24px;
+  background: linear-gradient(279.69deg, #00796d 0%, #38c682 100%);
+  border-radius: 100px;
 }
-#Footer .border_bottom{
-border-bottom: 1px solid white;
+#Footer .border_bottom {
+  border-bottom: 2px solid #3d414c;
 }
 
 @media (min-width: 576px) {
@@ -102,23 +173,48 @@ border-bottom: 1px solid white;
     padding: 12px 16px;
   }
 }
-@media (min-width: 768px) {#Footer .footerBtn{
-padding: 20px 24px 20px 32px;
-background: linear-gradient(279.69deg, #00796D 0%, #38C682 100%);
-border-radius: 100px;
-}
+@media (min-width: 768px) {
+  #Footer .footerBtn {
+    padding: 20px 24px 20px 32px;
+    background: linear-gradient(279.69deg, #00796d 0%, #38c682 100%);
+    border-radius: 100px;
+  }
   #OurProjects .btn_our_info {
     border-radius: 100px;
     padding: 16px 24px;
   }
 }
-@media (min-width: 992px) {#GridComponents .d-grid{display: grid; grid-template-columns: 1fr 1fr;column-gap: 48px; row-gap: 40px;}
- .gridbox1{grid-column: 1/1;grid-row: 2/4;}
-.gridbox2{grid-column: 2/3;grid-row: 1/3;}
-.gridbox3{grid-column: 1/2; grid-row: 4/6;}
-.gridbox4{grid-column: 2/3; grid-row: 3/5;}
-.gridbox5{grid-column: 1/2; grid-row: 6/8;}
-.gridbox6{grid-column: 2/3;grid-row: 5/7;}
+@media (min-width: 992px) {
+  #GridComponents .d-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 48px;
+    row-gap: 40px;
+  }
+  .gridbox1 {
+    grid-column: 1/1;
+    grid-row: 2/4;
+  }
+  .gridbox2 {
+    grid-column: 2/3;
+    grid-row: 1/3;
+  }
+  .gridbox3 {
+    grid-column: 1/2;
+    grid-row: 4/6;
+  }
+  .gridbox4 {
+    grid-column: 2/3;
+    grid-row: 3/5;
+  }
+  .gridbox5 {
+    grid-column: 1/2;
+    grid-row: 6/8;
+  }
+  .gridbox6 {
+    grid-column: 2/3;
+    grid-row: 5/7;
+  }
 }
 @media (min-width: 1024px) {
 }

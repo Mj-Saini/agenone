@@ -1,12 +1,26 @@
 import React from "react";
 import Footerlogo from "../assets/img/png/LogoFooter.png";
 import Footerbg from "../assets/img/png/FooterImg.png";
-import btnFooterArrow from "../assets/img/png/ArrowRight.png";
+import circle from "../assets/img/svg/Circle.svg";
+import footercircle from "../assets/img/svg/footer-circle.svg";
 
 function Footer() {
   return (
     <>
-      <section className=" position-relative d-flex flex-column" id="Footer">
+      <section
+        className=" position-relative d-flex flex-column position-relative"
+        id="Footer"
+      >
+        <img
+          className="position-absolute  bottom-0 end-0 z_index1"
+          src={circle}
+          alt="round-footer"
+        />
+        <img
+          className="position-absolute top-0 start-0 z_index1"
+          src={footercircle}
+          alt="round-footer"
+        />
         <img
           className=" z_index0 h-100 w-100 position-absolute"
           src={Footerbg}
@@ -14,7 +28,7 @@ function Footer() {
         />
 
         <div className=" container position-relative z_index3">
-          <div className="d-flex flex-column flex-lg-row justify-content-between px-sm-4 px-3 gap-3 gap-lg-0 px-lg-5 mx-5 align-items-center border_bottom py-xxl-5 py-4">
+          <div className="d-flex flex-column flex-lg-row justify-content-between px-sm-4 px-3 gap-3 gap-lg-0 px-lg-5 mx-4 align-items-center border_bottom py-xxl-5 py-4">
             <h2
               className="text_clr_white ff_inter fw-normal fs_4xl text-center text-lg-start"
               style={{ maxWidth: "600px" }}
@@ -22,10 +36,10 @@ function Footer() {
               Let’s discuss and bring your vision to life.
             </h2>
             <span className="pe-0">
-              <span className="contect_btn d-inline-block ff_inter fw-normal fs_md text_clr_white cursor_pointer ">
+              <span className="contect_btn  d-inline-block ff_inter fw-normal fs_md text_clr_white cursor_pointer ">
                 Let’s Talk{" "}
                 <svg
-                  className="changer"
+                  className="changer ms-2"
                   width="17"
                   height="17"
                   viewBox="0 0 17 17"
@@ -41,9 +55,9 @@ function Footer() {
             </span>
           </div>
         </div>
-        <div className="d-flex flex-column flex-grow-1 justify-content-center z_index3 mt-lg-5 pt-2">
+        <div className="d-flex flex-column flex-grow-1 justify-content-center z_index3 mt-lg-5 pt-2  mb-3">
           <div className=" container">
-            <div className="row justify-content-between py-5">
+            <div className="row justify-content-between py-5 ">
               <div className="col-lg-4">
                 <div className="">
                   <div className="d-flex flex-column align-items-center align-items-sm-start px-3">
@@ -76,7 +90,7 @@ function Footer() {
                       <h2 className="ff_inter fw-bold fs_md text-white">
                         Menu
                       </h2>
-                      <div className="d-flex flex-column gap-3">
+                      <div className="d-flex flex-column gap-3 mt-4">
                         <span className="">
                           <a
                             className="ff_inter fw-normal fs_md text_clr_dimGrey"
@@ -126,7 +140,7 @@ function Footer() {
                       <h2 className="ff_inter fw-bold fs_md text-white">
                         Support
                       </h2>
-                      <div className="d-flex flex-column gap-3">
+                      <div className="d-flex flex-column gap-3 mt-4">
                         <span className="">
                           <a
                             className="ff_inter fw-normal fs_md text_clr_dimGrey"
@@ -160,7 +174,7 @@ function Footer() {
                       <h2 className="ff_inter fw-bold fs_md text-white">
                         Social Media
                       </h2>
-                      <div className="d-flex flex-column gap-3">
+                      <div className="d-flex flex-column gap-3 mt-4">
                         <span className="">
                           <a
                             className="ff_inter fw-normal fs_md text_clr_dimGrey"
@@ -207,6 +221,10 @@ function Footer() {
                 </div>
               </div>
             </div>
+            <div className="border_bottom mx-4"></div>
+            <p className="ff_inter fw-normal fs_md text_clr_dimGrey text-center py-4">
+              Copyright © 2023 by Agenone. All rights reserved.
+            </p>
           </div>
         </div>
       </section>

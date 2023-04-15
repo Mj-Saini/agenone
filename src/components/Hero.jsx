@@ -42,7 +42,7 @@ function Hero() {
               <a className="ff_inter fw_med fs_md text-white" href="#">
                 Contact Us{" "}
                 <svg
-                  className="changer"
+                  className="changer ms-2"
                   width="17"
                   height="17"
                   viewBox="0 0 17 17"
