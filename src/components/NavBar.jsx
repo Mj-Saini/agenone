@@ -12,7 +12,11 @@ function NavBar() {
   return (
     <>
       <section id="Nav">
-        <Container>
+        <Container
+          data-aos="fade-down"
+          data-aos-easing="ease-in"
+          data-aos-delay="300"
+          data-aos-duration="2000">
           <div className="d-flex justify-content-between align-items-center w-100 ">
             <a className="ff_inter fw-bold fs_2xl text-white z_index1" href="#">
               <img src={logo} alt="logo-img" />
@@ -22,8 +26,7 @@ function NavBar() {
               <li className=" position-relative afterline z_index129">
                 <a
                   class="ff_inter fw_med fw_md text-white z_index5 text_stroke bottom_line position-relative"
-                  href="#"
-                >
+                  href="#">
                   Home
                 </a>
               </li>
@@ -31,8 +34,7 @@ function NavBar() {
               <li>
                 <a
                   class="ff_inter fw_med fw_md text-white z_index text_stroke   bottom_line"
-                  href="#"
-                >
+                  href="#">
                   Services
                 </a>
               </li>
@@ -40,16 +42,14 @@ function NavBar() {
               <li>
                 <a
                   class="ff_inter fw_med fw_md text-white z_index text_stroke  bottom_line"
-                  href="#"
-                >
+                  href="#">
                   Project
                 </a>
               </li>
               <li>
                 <a
                   class="ff_inter fw_med fw_md text-white z_index text_stroke  bottom_line"
-                  href="#"
-                >
+                  href="#">
                   About Us
                 </a>
               </li>
@@ -57,13 +57,11 @@ function NavBar() {
             <ul className="d-none d-lg-flex mb-0 ">
               <span
                 className="cursor_pointer d-flex gap-2 align-items-center contect_btn py-2 px-3"
-                href="#"
-              >
+                href="#">
                 {" "}
                 <a
                   className="ff_inter fw_med fs_sm text-white z_index text_stroke"
-                  href="#"
-                >
+                  href="#">
                   Contact Us
                 </a>
               </span>
@@ -73,23 +71,21 @@ function NavBar() {
                 navShow
                   ? "z_index129  border border-white py-2 border-2 px-1 pb-2 px-2 rounded-3 mb-0 d-xl-none"
                   : " border border-white border-2 px-1 pb-1 rounded-3 z_index129 mb-0 d-xl-none "
-              }
-            >
+              }>
               <div
                 className={
                   navShow
                     ? "threeline d-xl-none cursor_pointer"
                     : "threeline d-xl-none cursor_pointer my-2 mb-1"
                 }
-                onClick={() => setNavShow(!navShow)}
-              >
+                onClick={() => setNavShow(!navShow)}>
                 <div
-                  className={navShow ? " falseline1" : "  threelinechild"}
-                ></div>
+                  className={
+                    navShow ? " falseline1" : "  threelinechild"
+                  }></div>
                 {/* <div className={navShow ? "falseline" : " threelinechild"}></div> */}
                 <div
-                  className={navShow ? "falseline3 " : "threelinechild"}
-                ></div>
+                  className={navShow ? "falseline3 " : "threelinechild"}></div>
               </div>
             </ul>
           </div>
@@ -99,8 +95,7 @@ function NavBar() {
                 <li>
                   <a
                     class="ff_inter fw_med fw_md text-white z_index text_stroke  bottom_line"
-                    href="#"
-                  >
+                    href="#">
                     Home
                   </a>
                 </li>
@@ -108,8 +103,7 @@ function NavBar() {
                 <li>
                   <a
                     class="ff_inter fw_med fw_md text-white z_index text_stroke  bottom_line"
-                    href="#"
-                  >
+                    href="#">
                     Services
                   </a>
                 </li>
@@ -117,29 +111,25 @@ function NavBar() {
                 <li>
                   <a
                     class="ff_inter fw_med fw_md text-white z_index text_stroke  bottom_line"
-                    href="#"
-                  >
+                    href="#">
                     Project
                   </a>
                 </li>
                 <li>
                   <a
                     class="ff_inter fw_med fw_md text-white z_index text_stroke  bottom_line"
-                    href="#"
-                  >
+                    href="#">
                     About Us
                   </a>
                 </li>
 
                 <span
                   className=" d-flex gap-2 align-items-center jetzt_btn py-2 px-3"
-                  href="#"
-                >
+                  href="#">
                   {" "}
                   <a
                     className="ff_inter fw_med fs_sm text-white z_index text_stroke"
-                    href="#"
-                  >
+                    href="#">
                     Contact Us
                   </a>
                 </span>
