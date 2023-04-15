@@ -400,12 +400,6 @@ div.gap-3 span a:hover {
   --bs-accordion-active-color: #00796d !important;
 }
 
-.accordion:active h2 {
-  background: linear-gradient(279.69deg, #00796d 0%, #38c682 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
 #About .count:hover {
   box-shadow: 0 0px 50px 1px #0c9050;
 }

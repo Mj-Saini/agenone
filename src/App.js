@@ -6,14 +6,15 @@ import Services from "./components/Services";
 import About from "./components/About";
 import OurProjects from "./components/OurProject";
 import GridComponents from "./components/GridComponents";
-
 import Footer from "./components/Footer";
 import BackToTop from "./components/BackTop";
+import Loader from "./components/Loader";
 
 function App() {
   return (
     <>
       <BackToTop />
+      <Loader />
       <Hero />
       <Services />
       <About />
