@@ -22,9 +22,8 @@ function OurProjects() {
   return (
     <>
       <section
-        id="project"
         className="bg_img_Ourprojects bg_primery position-relative min-vh-100 "
-      >
+        id="OurProjects">
         <img
           src={BgImgGrid}
           className=" position-absolute w-100 h-100 z_index0"
@@ -40,22 +39,20 @@ function OurProjects() {
           src={CircelBIG}
           alt="Error to Fatch Api"
         />
-        <div className=" container position-relative z_index2">
+        <div className=" container position-relative z_index2" id="project">
           <div
             data-aos="fade-right"
             data-aos-easing="ease-in"
-            data-aos-delay="300"
+            data-aos-delay="0"
             data-aos-duration="1000"
-            className="py-md-5 py-4 "
-          >
-            ======={" "}
+            className="py-md-5 py-4 ">
+            {" "}
             <h2 className=" text-center ff_intes fs_7xl fw-bold text_clr_white">
               Our Project Have Been <span className="text_Grident">Done</span>{" "}
             </h2>
             <p
               style={{ maxWidth: "928px" }}
-              className="text-center ff_inter fs_lg fw-med mx-auto text_clr_dimGrey pt-3"
-            >
+              className="text-center ff_inter fs_lg fw-med mx-auto text_clr_dimGrey pt-3">
               Take a look at some of our recent projects and see how we've
               helped other businesses elevate their brand and drive business
               growth.
@@ -64,8 +61,7 @@ function OurProjects() {
               <div className=" text_clr_offBlue fw-med fs_sm ff_inter  bg-white d-inline-block p-1 p-sm-2 rounded-100 ">
                 <span
                   className={activeTab ? "Digital cursor_pointer" : "active"}
-                  onClick={() => handleTabClick("Digital")}
-                >
+                  onClick={() => handleTabClick("Digital")}>
                   <span className="btn_our_info cursor_pointer d-inline-block">
                     UI/UX
                     <span className="d-none d-sm-inline-block">
@@ -76,8 +72,7 @@ function OurProjects() {
                 </span>
                 <span
                   className={activeTab ? "Digital cursor_pointer" : "active"}
-                  onClick={() => handleTabClick("Digital")}
-                >
+                  onClick={() => handleTabClick("Digital")}>
                   <span className="btn_our_info cursor_pointer d-inline-block">
                     <span className="d-none d-d-sm-inline-block"> Digital</span>{" "}
                     Marketing
@@ -85,8 +80,7 @@ function OurProjects() {
                 </span>
                 <span
                   className={activeTab ? "uiux cursor_pointer" : "active"}
-                  onClick={() => handleTabClick("uiux")}
-                >
+                  onClick={() => handleTabClick("uiux")}>
                   <span className="btn_our_info cursor_pointer d-inline-block">
                     <span className="d-none d-lg-inline-block"> Sosmed</span>{" "}
                     <span className="d-none d-sm-inline-block">Management</span>{" "}
@@ -106,8 +100,7 @@ function OurProjects() {
                     data-aos-easing="ease-in"
                     data-aos-delay="0"
                     data-aos-duration="1000"
-                    className="col-lg-6 "
-                  >
+                    className="col-lg-6 ">
                     <div className=" bg_blue rounded-4 p-3 overlayParant">
                       <div className=" position-relative">
                         <div className=" position-absolute  w-100 h-100 overlay transition300">
@@ -146,8 +139,7 @@ function OurProjects() {
                     data-aos-easing="ease-in"
                     data-aos-delay="0"
                     data-aos-duration="1000"
-                    className="col-lg-6 "
-                  >
+                    className="col-lg-6 ">
                     <div className=" bg_blue rounded-4 p-3 overlayParant">
                       <div className=" position-relative">
                         <div className=" position-absolute  w-100 h-100 overlay transition300">
@@ -186,8 +178,7 @@ function OurProjects() {
                     data-aos-easing="ease-in"
                     data-aos-delay="0"
                     data-aos-duration="1000"
-                    className="col-lg-6 "
-                  >
+                    className="col-lg-6 ">
                     <div className=" bg_blue rounded-4 p-3 overlayParant">
                       <div className=" position-relative">
                         <div className=" position-absolute  w-100 h-100 overlay transition300">
@@ -226,8 +217,7 @@ function OurProjects() {
                     data-aos-easing="ease-in"
                     data-aos-delay="0"
                     data-aos-duration="1000"
-                    className="col-lg-6 "
-                  >
+                    className="col-lg-6 ">
                     <div className=" bg_blue rounded-4 p-3 overlayParant">
                       <div className=" position-relative">
                         <div className=" position-absolute  w-100 h-100 overlay transition300">
@@ -271,8 +261,7 @@ function OurProjects() {
         data-aos-delay="0"
         data-aos-duration="1000"
         className=" bg_primery "
-        id="LogoParant"
-      >
+        id="LogoParant">
         <div className=" container ">
           <div class="LogoParant ">
             <div class="slide_logo d-flex gap-5 px-3 align-items-center">

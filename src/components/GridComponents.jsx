@@ -28,7 +28,7 @@ function GridComponents() {
                    to load Png "
                 />
                 <div>
-                  <h2 className=" text_clr_offBlue ff_inter fs_lg fw-semibold">
+                  <h2 className=" text_p ff_inter fs_lg fw-semibold">
                     Clara Insomnia
                   </h2>
                   <h4 className=" text_clr_offBlue ff_inter fs_sm fw-normal">
@@ -50,7 +50,7 @@ function GridComponents() {
                   alt="Err to load Png "
                 />
                 <div>
-                  <h2 className=" text_clr_offBlue ff_inter fs_lg fw-semibold">
+                  <h2 className=" text_p ff_inter fs_lg fw-semibold">
                     Clara Insomnia
                   </h2>
                   <h4 className=" text_clr_offBlue ff_inter fs_sm fw-normal">
@@ -72,7 +72,7 @@ function GridComponents() {
                   alt="Err to load Png "
                 />
                 <div>
-                  <h2 className=" text_clr_offBlue ff_inter fs_lg fw-semibold">
+                  <h2 className=" text_p ff_inter fs_lg fw-semibold">
                     Clara Insomnia
                   </h2>
                   <h4 className=" text_clr_offBlue ff_inter fs_sm fw-normal">
@@ -94,7 +94,7 @@ function GridComponents() {
                   alt="Err to load Png "
                 />
                 <div>
-                  <h2 className=" text_clr_offBlue ff_inter fs_lg fw-semibold">
+                  <h2 className=" text_p ff_inter fs_lg fw-semibold">
                     Clara Insomnia
                   </h2>
                   <h4 className=" text_clr_offBlue ff_inter fs_sm fw-normal">
@@ -116,7 +116,7 @@ function GridComponents() {
                   alt="Err to load Png "
                 />
                 <div>
-                  <h2 className=" text_clr_offBlue ff_inter fs_lg fw-semibold">
+                  <h2 className=" text_clr_Primery ff_inter fs_lg fw-semibold">
                     Clara Insomnia
                   </h2>
                   <h4 className=" text_clr_offBlue ff_inter fs_sm fw-normal">
@@ -138,7 +138,7 @@ function GridComponents() {
                   alt="Err to load Png "
                 />
                 <div>
-                  <h2 className=" text_clr_offBlue ff_inter fs_lg fw-semibold">
+                  <h2 className=" text_p ff_inter fs_lg fw-semibold">
                     Clara Insomnia
                   </h2>
                   <h4 className=" text_clr_offBlue ff_inter fs_sm fw-normal">

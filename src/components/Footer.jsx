@@ -36,7 +36,7 @@ function Footer() {
         >
           <div className="d-flex flex-column flex-lg-row justify-content-between px-sm-4 px-3 gap-3 gap-lg-0 px-lg-5 mx-4 align-items-center border_bottom py-xxl-5 py-4">
             <h2
-              className="text_clr_white ff_inter fw-normal fs_4xl text-center text-lg-start"
+              className="text_clr_white ff_inter fw-semibold fs_4xl text-center text-lg-start"
               style={{ maxWidth: "600px" }}
             >
               Let’s discuss and bring your vision to life.
