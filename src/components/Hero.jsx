@@ -14,7 +14,10 @@ import banner from "../assets/img/png/Banner.png";
 function Hero() {
   return (
     <>
-      <section className="bg_hero_img min_vh_100 d-flex flex-column pt-3 pb-lg-5 pb-4">
+      <section
+        id="home"
+        className="bg_hero_img min_vh_100 d-flex flex-column pt-3 pb-lg-5 pb-4"
+      >
         <NavBar />
 
         <Container className="d-flex flex-grow-1 align-items-center justify-content-center mt-lg-5 mt-4 pb-lg-5">
@@ -35,14 +38,14 @@ function Hero() {
               data-aos-easing="ease-in"
               data-aos-delay="300"
               data-aos-duration="3000"
-              className=" text-center ff_inter fw-bold
+              className=" text-center ff_inter fw-bold mb-0
              fs_7xl text-white mx-auto lh_02 pt-2"
             >
               <span className="text_grideant d-lg-block">Smart Choices</span>{" "}
               For Your Business Growth{" "}
             </h1>
             <p
-              className=" text-center ff_inter fw_med fs_lg text_clr_dimGrey mx-auto mt-4"
+              className=" text-center ff_inter fw_med fs_lg text_clr_dimGrey mx-auto mt-4 mb-0"
               data-aos="fade-down"
               data-aos-easing="ease-in"
               data-aos-delay="300"
@@ -56,7 +59,7 @@ function Hero() {
               </span>
             </p>
             <span
-              className="contect_btn cursor_pointer mt-5"
+              className="contect_btn cursor_pointer mt-lg-5 mt-4"
               data-aos="zoom-out"
               data-aos-easing="ease-in"
               data-aos-delay="300"
@@ -80,7 +83,7 @@ function Hero() {
               </a>
             </span>
             <div
-              className="mt-5 pt-lg-4 position-relative d-none d-md-flex"
+              className="mt-lg-5 mt-4 pt-lg-4 position-relative d-none d-md-flex"
               data-aos="fade-up"
               data-aos-easing="ease-in"
               data-aos-delay="100"
@@ -142,137 +145,76 @@ function Hero() {
                 </div>
               </div>
               <img className="w-100 mt-2" src={banner} alt="banner-img" />
+            </div>{" "}
+            <div className="mt-5 pt-lg-4 position-relative d-md-none">
+              <div className="overlay_hero mt-xl-4 pb-2">
+                <p className="ff_inter fw-semibold text-white fs_3xl text-center pt-5 pt-md-3 pt-xl-0 mt-lg-4 mb-0">
+                  Benefit of{" "}
+                  <span className="d-block d-md-inline">
+                    improving your business
+                  </span>
+                </p>
+                <div className="row mt-xxl-4 justify-content-center px-4">
+                  <div className="col-md-3 pt-4">
+                    <Carousel className="d-md-none">
+                      <Carousel.Item>
+                        <div className="d-flex justify-content-center flex-column align-items-center">
+                          <img
+                            className="expend_img_size transition300"
+                            src={expand}
+                            alt="img"
+                          />
+                          <p className="ff_inter fw_med fs_2xl text-center text-white pt-2">
+                            Expanding the Market
+                          </p>
+                        </div>
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <div className="d-flex justify-content-center flex-column align-items-center">
+                          <img
+                            className="expend_img_size transition300"
+                            src={expand}
+                            alt="img"
+                          />
+                          <p className="ff_inter fw_med fs_2xl text-center text-white pt-2">
+                            Expanding the Market
+                          </p>
+                        </div>
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <div className="d-flex justify-content-center flex-column align-items-center">
+                          <img
+                            className="expend_img_size transition300"
+                            src={expand}
+                            alt="img"
+                          />
+                          <p className="ff_inter fw_med fs_2xl text-center text-white pt-2">
+                            Expanding the Market
+                          </p>
+                        </div>
+                      </Carousel.Item>
+                      <Carousel.Item>
+                        <div className="d-flex justify-content-center flex-column align-items-center">
+                          <img
+                            className="expend_img_size transition300"
+                            src={expand}
+                            alt="img"
+                          />
+                          <p className="ff_inter fw_med fs_2xl text-center text-white pt-2">
+                            Expanding the Market
+                          </p>
+                        </div>
+                      </Carousel.Item>
+                    </Carousel>
+                  </div>
+                </div>
+              </div>
+              <img
+                className="banner_img mt-2 d-md-none "
+                src={banner}
+                alt="banner-img"
+              />
             </div>
-            <Carousel className="d-md-none">
-              <Carousel.Item>
-                {" "}
-                <div className="mt-5 pt-lg-4 position-relative">
-                  <div className="overlay_hero mt-xl-4 pb-2">
-                    <p className="ff_inter fw-semibold text-white fs_3xl text-center pt-5 pt-md-3 pt-xl-0 mt-lg-4 mb-0">
-                      Benefit of{" "}
-                      <span className="d-block d-md-inline">
-                        improving your business
-                      </span>
-                    </p>
-                    <div className="row mt-xxl-4 justify-content-center px-4">
-                      <div className="col-md-3 pt-4">
-                        <div className="d-flex justify-content-center flex-column align-items-center">
-                          <img
-                            className="expend_img_size transition300"
-                            src={expand}
-                            alt="img"
-                          />
-                          <p className="ff_inter fw_med fs_2xl text-center text-white pt-2">
-                            Expanding the Market
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <img
-                    className="banner_img mt-2"
-                    src={banner}
-                    alt="banner-img"
-                  />
-                </div>
-              </Carousel.Item>
-              <Carousel.Item>
-                {" "}
-                <div className="mt-5 pt-lg-4 position-relative">
-                  <div className="overlay_hero mt-xl-4 pb-2">
-                    <p className="ff_inter fw-semibold text-white fs_3xl text-center pt-5 pt-md-3 pt-xl-0 mt-lg-4 mb-0">
-                      Benefit of{" "}
-                      <span className="d-block d-md-inline">
-                        improving your business
-                      </span>
-                    </p>
-                    <div className="row mt-xxl-4 justify-content-evenly px-4">
-                      <div className="col-md-3 pt-4">
-                        <div className="d-flex justify-content-center flex-column align-items-center">
-                          <img
-                            className="expend_img_size transition300"
-                            src={expand}
-                            alt="img"
-                          />
-                          <p className="ff_inter fw_med fs_2xl text-center text-white pt-2">
-                            Expanding the Market
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <img
-                    className="banner_img mt-2"
-                    src={banner}
-                    alt="banner-img"
-                  />
-                </div>
-              </Carousel.Item>
-              <Carousel.Item>
-                {" "}
-                <div className="mt-5 pt-lg-4 position-relative">
-                  <div className="overlay_hero mt-xl-4 pb-2">
-                    <p className="ff_inter fw-semibold text-white fs_3xl text-center pt-5 pt-md-3 pt-xl-0 mt-lg-4 mb-0">
-                      Benefit of{" "}
-                      <span className="d-block d-md-inline">
-                        improving your business
-                      </span>
-                    </p>
-                    <div className="row mt-xxl-4 justify-content-evenly px-4">
-                      <div className="col-md-3 pt-4">
-                        <div className="d-flex justify-content-center flex-column align-items-center">
-                          <img
-                            className="expend_img_size transition300"
-                            src={expand}
-                            alt="img"
-                          />
-                          <p className="ff_inter fw_med fs_2xl text-center text-white pt-2">
-                            Expanding the Market
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <img
-                    className="banner_img mt-2"
-                    src={banner}
-                    alt="banner-img"
-                  />
-                </div>
-              </Carousel.Item>
-              <Carousel.Item>
-                {" "}
-                <div className="mt-5 pt-lg-4 position-relative">
-                  <div className="overlay_hero mt-xl-4 pb-2">
-                    <p className="ff_inter fw-semibold text-white fs_3xl text-center pt-5 pt-md-3 pt-xl-0 mt-lg-4 mb-0">
-                      Benefit of{" "}
-                      <span className="d-block d-md-inline">
-                        improving your business
-                      </span>
-                    </p>
-                    <div className="row mt-xxl-4 justify-content-evenly px-4">
-                      <div className="col-md-3 pt-4">
-                        <div className="d-flex justify-content-center flex-column align-items-center">
-                          <img
-                            className="expend_img_size transition300"
-                            src={expand}
-                            alt="img"
-                          />
-                          <p className="ff_inter fw_med fs_2xl text-center text-white pt-2">
-                            Expanding the Market
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <img
-                    className="banner_img mt-2"
-                    src={banner}
-                    alt="banner-img"
-                  />
-                </div>
-              </Carousel.Item>
-            </Carousel>
           </div>
         </Container>
       </section>

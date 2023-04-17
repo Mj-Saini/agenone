@@ -13,14 +13,13 @@ import GridComponents from "./components/GridComponents";
 import Footer from "./components/Footer";
 import BackToTop from "./components/BackTop";
 import Loader from "./components/Loader";
-import Experiment from "./components/Experiment";
 
 function App() {
   useEffect(() => {
     AOS.init({ once: true });
   }, []);
   return (
-    <>
+    <div className="overflow-hidden">
       <BackToTop />
       <Loader />
       <Hero />
@@ -29,7 +28,7 @@ function App() {
       <OurProjects />
       <GridComponents />
       <Footer />
-    </>
+    </div>
   );
 }
 

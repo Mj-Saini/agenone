@@ -27,7 +27,7 @@ function NavBar() {
               <li className=" position-relative afterline z_index129">
                 <a
                   class="ff_inter fw_med fw_md text-white z_index5 text_stroke bottom_line position-relative"
-                  href="#"
+                  href="#home"
                 >
                   Home
                 </a>
@@ -36,7 +36,7 @@ function NavBar() {
               <li>
                 <a
                   class="ff_inter fw_med fw_md text-white z_index text_stroke   bottom_line"
-                  href="#"
+                  href="#service"
                 >
                   Services
                 </a>
@@ -45,7 +45,7 @@ function NavBar() {
               <li>
                 <a
                   class="ff_inter fw_med fw_md text-white z_index text_stroke  bottom_line"
-                  href="#"
+                  href="#project"
                 >
                   Project
                 </a>
@@ -53,7 +53,7 @@ function NavBar() {
               <li>
                 <a
                   class="ff_inter fw_med fw_md text-white z_index text_stroke  bottom_line"
-                  href="#"
+                  href="#about"
                 >
                   About Us
                 </a>
@@ -61,7 +61,8 @@ function NavBar() {
             </ul>
             <ul className="d-none d-lg-flex mb-0 ">
               <span
-                className="cursor_pointer d-flex gap-2 align-items-center contect_btn py-2 px-3"
+                id="contect_btn"
+                className="cursor_pointer d-flex gap-2 align-items-center  py-2 px-3"
                 href="#"
               >
                 {" "}
@@ -103,8 +104,9 @@ function NavBar() {
               <ul class="ps-0 mb-0 d-flex flex-column py-5 align-items-center  list-unstyled gap-3  pt-3 transition">
                 <li>
                   <a
+                    onClick={() => setNavShow(!navShow)}
                     class="ff_inter fw_med fw_md text-white z_index text_stroke  bottom_line"
-                    href="#"
+                    href="#home"
                   >
                     Home
                   </a>
@@ -112,8 +114,9 @@ function NavBar() {
 
                 <li>
                   <a
+                    onClick={() => setNavShow(!navShow)}
                     class="ff_inter fw_med fw_md text-white z_index text_stroke  bottom_line"
-                    href="#"
+                    href="#service"
                   >
                     Services
                   </a>
@@ -121,16 +124,18 @@ function NavBar() {
 
                 <li>
                   <a
+                    onClick={() => setNavShow(!navShow)}
                     class="ff_inter fw_med fw_md text-white z_index text_stroke  bottom_line"
-                    href="#"
+                    href="#project"
                   >
                     Project
                   </a>
                 </li>
                 <li>
                   <a
+                    onClick={() => setNavShow(!navShow)}
                     class="ff_inter fw_med fw_md text-white z_index text_stroke  bottom_line"
-                    href="#"
+                    href="#about"
                   >
                     About Us
                   </a>
@@ -142,6 +147,7 @@ function NavBar() {
                 >
                   {" "}
                   <a
+                    onClick={() => setNavShow(!navShow)}
                     className="ff_inter fw_med fs_sm text-white z_index text_stroke"
                     href="#"
                   >

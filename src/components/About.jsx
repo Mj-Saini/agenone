@@ -4,7 +4,7 @@ import { Container, Row } from "react-bootstrap";
 function About() {
   return (
     <>
-      <section className="about_bg_gradient py-lg-5 py-4" id="About">
+      <section id="about" className="about_bg_gradient py-lg-5 py-4">
         <Container className="pt-xl-4 px-md-0">
           <div>
             <h3 className="ff_inter fw_med fs_4xl text_clr_Primery pb-3">

@@ -234,7 +234,7 @@ function Footer() {
               </div>
             </div>
             <div className="border_bottom mx-4"></div>
-            <p className="ff_inter fw-normal fs_md text_clr_dimGrey text-center py-4 mb-0">
+            <p className="ff_inter fw-normal fs_md text-start text-sm-center text_clr_dimGrey py-4 mb-0">
               Copyright © 2023 by Agenone. All rights reserved.
             </p>
           </div>

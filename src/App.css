@@ -18,7 +18,7 @@
   /* font size */
   --fs-xsm: 14px;
   --fs-sm: 14px;
-  --fs-md: 18px;
+  --fs-md: 16px;
   --fs-lg: 15px;
   --fs-2xl: 24px;
   --fs-3xl: 18px;
@@ -237,16 +237,18 @@
   border-radius: 100px;
   transition: all 0.3s ease-in-out;
   padding: 10px 18px 10px 22px;
+  background-size: 110% !important;
+  background-position: center !important;
 }
 .contect_btn:hover {
   background: transparent;
   border: 1px solid #38c682;
-  border-radius: 100px;
   padding: 10px 18px 10px 22px;
   background: linear-gradient(279.69deg, #00796d 0%, #38c682 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
+  background-size: 110% !important;
+  background-position: center !important;
   transition: all 0.3s ease-in-out;
 }
 .contect_btn:hover svg.changer path {
@@ -324,7 +326,7 @@ div.gap-3 span a:hover {
 }
 
 .carousel-indicators {
-  bottom: -5px !important;
+  bottom: -25px !important;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -346,11 +348,6 @@ div.gap-3 span a:hover {
 }
 
 .accordion-button:not(.collapsed) {
-  background: linear-gradient(279.69deg, #00796d 0%, #38c682 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  transition: all 0.3s ease-in-out;
   box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 transparent !important;
   border-top-right-radius: 0 !important;
   border-top-left-radius: 0 !important;
@@ -370,15 +367,11 @@ div.gap-3 span a:hover {
 
 .accordion-button {
   color: transparent !important;
-  text-align: left;
   background-color: transparent !important;
   width: 100% !important;
 }
 
 .accordion-button::after {
-  flex-shrink: 0;
-  margin-left: auto;
-  content: "";
   background-image: url(./assets/img/svg/close-arrow.svg) !important;
 }
 .accordion-button:not(.collapsed)::after {
@@ -387,8 +380,6 @@ div.gap-3 span a:hover {
 }
 
 .accordion-button {
-  padding-left: 0;
-  padding-top: 0;
   padding-bottom: 10 !important;
 }
 .accordion {
@@ -433,7 +424,7 @@ div.gap-3 span a:hover {
     --fs-sm: 16px;
     --fs-md: 18px;
     --fs-lg: 18px;
-    --fs-2xl: 24px;
+    --fs-2xl: 12px;
     --fs-3xl: 28px;
     --fs-4xl: 44px;
     --fs-7xl: 48px;
@@ -445,10 +436,22 @@ div.gap-3 span a:hover {
     width: 100% !important;
   }
   .contect_btn {
-    background: linear-gradient(279.69deg, #00796d 0%, #38c682 100%);
+    background: linear-gradient(279.69deg, #00796d 0%, #38c682 105%)
+      calc(100% +20%);
     border-radius: 100px;
-    padding: 20px 24px 20px 32px;
-    transition: all 0.3s ease-in-out;
+    padding: 20px 24px 20px 32px !important ;
+    transition: all 0.3s ease-in-out !important;
+    background-size: 110% !important;
+    background-position: center !important;
+    border: 1px solid transparent;
+  }
+  ul span#contect_btn {
+    background: linear-gradient(279.69deg, #00796d 0%, #38c682 125%);
+    border-radius: 100px;
+    padding: 16px 24px !important;
+    transition: all 0.3s ease-in-out !important;
+    background-size: 110% !important;
+    background-position: center !important;
     border: 1px solid transparent;
   }
   .contect_btn:hover {
@@ -460,7 +463,22 @@ div.gap-3 span a:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 0.3s ease-in-out;
+    background-position: center !important;
+    background-size: 110% !important;
     background-clip: text;
+  }
+  #contect_btn:hover {
+    background: transparent;
+    border: 1px solid #38c682;
+    border-radius: 100px;
+    padding: 20px 24px 20px 32px;
+    background: linear-gradient(279.69deg, #00796d 0%, #38c682 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+    background-clip: text;
+    background-position: center !important;
+    background-size: 110% !important;
   }
 }
 @media (min-width: 992px) {

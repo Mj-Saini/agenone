@@ -17,8 +17,8 @@ function OurProjects() {
   return (
     <>
       <section
+        id="project"
         className="bg_img_Ourprojects bg_primery position-relative min-vh-100 "
-        id="OurProjects"
       >
         <img
           src={BgImgGrid}
@@ -41,7 +41,7 @@ function OurProjects() {
             data-aos-easing="ease-in"
             data-aos-delay="300"
             data-aos-duration="2000"
-            className="py-md-5 "
+            className="py-md-5 py-4 "
           >
             {" "}
             <h2 className=" text-center ff_intes fs_7xl fw-bold text_clr_white">

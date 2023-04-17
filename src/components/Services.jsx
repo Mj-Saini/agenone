@@ -5,7 +5,7 @@ import design from "../assets/img/webp/Img.webp";
 function Services() {
   return (
     <>
-      <section className="py-lg-5 py-4">
+      <section id="service" className="py-lg-5 py-4">
         <Container>
           <h2 className=" ff_inter fw-bold fs_7xl text_clr_primary text-center py-xl-5">
             The Services We Offer <span className="text_grideant">For You</span>
@@ -19,7 +19,8 @@ function Services() {
               data-aos-anchor-placement="center-bottom"
               data-aos-easing="ease-in"
               data-aos-delay="300"
-              data-aos-duration="1000">
+              data-aos-duration="1000"
+            >
               <Accordion.Header className="p-0">
                 <h2 className="ff_inter fw-semibold fs_3xl text_clr_darkGrey mb-0 pt-2 w-100">
                   <span className="pe-md-5 pe-sm-4 pe-2">01</span> UI/UX Design
@@ -50,7 +51,8 @@ function Services() {
               data-aos-anchor-placement="center-bottom"
               data-aos-easing="ease-in"
               data-aos-delay="300"
-              data-aos-duration="1000">
+              data-aos-duration="1000"
+            >
               <Accordion.Header className="p-0">
                 <h2 className="ff_inter fw-semibold fs_3xl text_clr_darkGrey mb-0 pt-2 w-100">
                   <span className="pe-md-5 pe-sm-4 pe-2">02</span> Digital
@@ -82,7 +84,8 @@ function Services() {
               data-aos-anchor-placement="center-bottom"
               data-aos-easing="ease-in"
               data-aos-delay="300"
-              data-aos-duration="1000">
+              data-aos-duration="1000"
+            >
               <Accordion.Header className="p-0">
                 <h2 className="ff_inter fw-semibold fs_3xl text_clr_darkGrey mb-0 pt-2 w-100 d-flex">
                   <span className="pe-md-5 pe-sm-4 pe-2">03</span>
@@ -114,7 +117,8 @@ function Services() {
               data-aos="fade-in-right"
               data-aos-easing="ease-in"
               data-aos-delay="300"
-              data-aos-duration="2000">
+              data-aos-duration="2000"
+            >
               <Accordion.Header className="p-0">
                 <h2 className="ff_inter fw-semibold fs_3xl text_clr_darkGrey mb-0 pt-2 w-100">
                   <span className="pe-md-5 pe-sm-4 pe-2">04</span> Development
